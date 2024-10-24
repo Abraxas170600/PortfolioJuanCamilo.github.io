@@ -39,3 +39,9 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 } 
+
+$(".hover").mouseleave(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );
