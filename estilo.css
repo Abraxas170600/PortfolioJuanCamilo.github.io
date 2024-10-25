@@ -678,6 +678,7 @@ html{
 .contacto .fila{
     display: flex;
     justify-content: space-around;
+    margin-right: 200px;
 }
 .contacto .col{
     width: 50%;
