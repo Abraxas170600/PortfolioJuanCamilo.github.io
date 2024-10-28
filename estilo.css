@@ -492,16 +492,14 @@ html{
 .portfolio .galeria{
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
 }
-.portfolio .galeria .proyecto{
+.portfolio .galeria .snip1577{
     position: relative;
     max-width: 340px;
     height: fit-content;
-    margin: 15px;
     cursor: pointer;
 }
-.portfolio .galeria .proyecto img{
+.portfolio .galeria .snip1577 img{
     width: 100%;
     display: block;
 }
@@ -815,7 +813,7 @@ footer .arriba{
         width: fit-content;
     }
 
-    .skills .fila{
+    /*.skills .fila{
         display: block;
     }
     .skills .fila .col{
@@ -823,7 +821,7 @@ footer .arriba{
     }
     .skills .fila .col .barra-skill{
         width: 100%;
-    }
+    }*/
 
     .curriculum .fila{
         display: block;
@@ -836,19 +834,18 @@ footer .arriba{
     }
 
     .portfolio .galeria{
-        display: block;
         width: 100%;
     }
-    .portfolio .galeria .proyecto{
+    .portfolio .galeria .snip1577{
         max-width: 100%;
     }
-    .portfolio .galeria .proyecto img{
+    .portfolio .galeria .snip1577 img{
         width: 100%;
     }
-    .contacto .fila{
+    /*.contacto .fila{
         display: block;
     }
     .contacto .fila .col{
         width: 100%;
-    }
+    }*/
 }

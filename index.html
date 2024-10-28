@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
@@ -32,7 +33,7 @@
 
     <!-- SECCION INICIO -->
     <section id="inicio" class="inicio">
-        <div class="contenido-banner">
+        <div class="contenido-banner" data-aos="fade-up">
             <div class="contenedor-img">
                 <img src="img/hero.png" alt="">
             </div>
@@ -49,31 +50,33 @@
 
     <!-- SECCION PORTFOLIO -->
     <section id="portfolio" class="portfolio">
-            <div class="contenido-seccion">
+            <div class="contenido-seccion" data-aos="fade-up">
                 <h2>PORTAFOLIO</h2>
                 <div class="galeria">
-                    <figure class="snip1577">
+                    <figure class="snip1577" data-aos="fade-right" data-aos-delay="400">
                         <img src="img/utopology.png" target="_blank" />
                         <figcaption>
                           <h3>Utopology</h3>
                           <h4>Unity | C# Sharp | GameJamPlus 2023</h4>
                         </figcaption>
                         <a href="https://abraxaswatain.itch.io/utopology" target="_blank"></a>
-                      </figure>
-                      <figure class="snip1577"><img src="img/slimedigger.jpg" target="_blank" />
+                    </figure>
+                    <figure class="snip1577" data-aos="fade-right" data-aos-delay="400">
+                        <img src="img/slimedigger.jpg" target="_blank" />
                         <figcaption>
                           <h3>Slime Digger</h3>
                           <h4>Unity | C# Sharp | Generation Colombia</h4>
                         </figcaption>
                         <a href="https://halissonxd.itch.io/slimedigger" target="_blank"></a>
-                      </figure>
-                      <figure class="snip1577"><img src="./img/fps.png" target="_blank" />
+                    </figure>
+                    <figure class="snip1577" data-aos="fade-right" data-aos-delay="400">
+                        <img src="./img/fps.png" target="_blank" />
                         <figcaption>
                           <h3>Prototype: FPS</h3>
                           <h4>Unity | C# Sharp | Personal</h4>
                         </figcaption>
                         <a href="https://abraxaswatain.itch.io/shooter-prototype" target="_blank"></a>
-                      </figure>
+                    </figure>
                     <!--div class="proyecto">
                         <img src="img/p1.jpg" alt="">
                         <a href="https://abraxaswatain.itch.io/utopology" target="_blank">
@@ -226,7 +229,7 @@
         <div class="contenido-seccion">
             <div class="fila">
                 <div class="col izquierda">
-                    <div class="item izq">
+                    <div class="item izq" data-aos="fade-left">
                         <h4>Demo</h4>
                         <span class="casa">Utopology</span>
                         <span class="fecha">Oct 2023 - Apr 2024</span>
@@ -237,10 +240,21 @@
                             <div class="circuloi"></div>
                         </div>
                     </div>
+                    <div class="item izq" data-aos="fade-left">
+                        <h4>Prototipo</h4>
+                        <span class="casa">Prototype: FPS</span>
+                        <span class="fecha">Apr 2024 - Apr 2024</span>
+                        <p>Videojuego desarrollado para prueba técnica de la empresa Life is the Game. El prototipo se desarrolló con el propósito de experimentar con mecánicas creativas ligadas a las balas, creando distintas interacciones con los objetos del escenario.</p>
+                        <h4>Colaboradores</h4>
+                        <p>Juan Rivera (Programación), Juan Cristancho (Arte 3D), Claudia Montoya (Narrativa), Mariana Rivera (Arte 2D), Daniel Fiesco (UI/UX)</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="col derecha">
-                    <div class="item der">
+                    <div class="item der" data-aos="fade-right">
                         <h4>Prototipo</h4>
                         <span class="casa">Slime Digger</span>
                         <span class="fecha">Oct 2024 - Oct 2024</span>
@@ -258,7 +272,7 @@
 
      <!-- SECCION SOBRE MI -->
     <section id="sobremi" class="sobremi">
-            <div class="contenido-seccion">
+            <div class="contenido-seccion" data-aos="fade-up" data-aos-delay="200">
                 <h2>Sobre Mí</h2>
                 <p><span>Hola, soy Juan Camilo Rivera,</span> tecnólogo en Desarrollo de videojuegos con 2 años de experiencia en el campo. Cuento con habilidades en el desarrollo de proyectos en Unity con énfasis en la programación con el lenguaje C#. Asimismo, poseo habilidades en el desarrollo de aplicaciones móviles utilizando Java en Android Studio, experiencia en el análisis de métricas y creación de informes de datos en las plataformas Admob, Play Console y Firebase. Mi pasión gira en torno a la construcción y solución de mecánicas divertidas y atractivas a los ojos del usuario. Cuento con grandes habilidades de trabajo en equipo, resiliencia y orientación al detalle. Mi objetivo es colaborar en la construcción de un ambiente creativo y saludable en busca de lograr un crecimiento tanto personal como colectivo. </p>
     
@@ -297,7 +311,7 @@
                     <!-- intereses -->
                     <div class="col">
                         <h3>Habilidades Tecnicas</h3>
-                        <div class="contenedor-intereses">
+                        <div class="contenedor-intereses" data-aos="fade-right" data-aos-delay="400">
                             <div class="interes">
                                 <i class="fa-brands fa-unity"></i>
                                 <span>UNITY</span>
@@ -388,9 +402,9 @@
     </footer>
 
     <script src="script.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
 </body>
 </html>

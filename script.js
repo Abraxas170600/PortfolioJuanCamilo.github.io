@@ -36,12 +36,12 @@ function seleccionar(){
 
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
-window.onscroll = function(){
+/*window.onscroll = function(){
     efectoHabilidades();
-} 
+} */
 
-$(".hover").mouseleave(
+/*$(".hover").mouseleave(
     function() {
       $(this).removeClass("hover");
     }
-  );
+  );*/
