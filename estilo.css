@@ -849,15 +849,13 @@ footer .arriba{
         display: block;
     }
     .curriculum .fila .col{
-        width: 100%;
-    }
-    .curriculum .fila .derecha{
-        margin-left: 20px;
+        width: 70%;
+        margin: auto;
     }
 
     .portfolio .galeria{
         width: 100%;
-        display: flex;
+        display: block;
     }
     .portfolio .galeria .snip1577{
         max-width: 100%;
