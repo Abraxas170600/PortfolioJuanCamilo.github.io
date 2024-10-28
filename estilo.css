@@ -54,8 +54,17 @@ html{
     color:#fff;
     padding: 5px 10px;
     border-radius: 5px;
-    cursor: pointer;
+    cursor: none;
     display: none;
+}
+/*main{
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}*/
+section{
+    transform-style: preserve-3d;
 }
 /* SECCION I N I C I O */
 .inicio{
@@ -188,7 +197,7 @@ html{
     margin-bottom: 10px;
 }
 .sobremi button{
-    cursor: pointer;
+    cursor: none;
     background-color: transparent;
     border: 2px solid #fff;
     width: fit-content;
@@ -476,7 +485,7 @@ html{
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 20px;
 }
@@ -496,9 +505,10 @@ html{
 }
 .portfolio .galeria .snip1577{
     position: relative;
+    border: 2px solid #1CB698;
     max-width: 340px;
     height: fit-content;
-    cursor: pointer;
+    cursor: none;
 }
 .portfolio .galeria .snip1577 img{
     width: 100%;
